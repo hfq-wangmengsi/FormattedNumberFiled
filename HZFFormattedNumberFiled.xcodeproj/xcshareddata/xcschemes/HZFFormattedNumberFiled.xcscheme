@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8E50771C204E394100438EE8"
-               BuildableName = "FormattedNumberFiled.framework"
-               BlueprintName = "FormattedNumberFiled"
-               ReferencedContainer = "container:FormattedNumberFiled.xcodeproj">
+               BlueprintIdentifier = "8E50774B204E3CEA00438EE8"
+               BuildableName = "HZFFormattedNumberFiled.framework"
+               BlueprintName = "HZFFormattedNumberFiled"
+               ReferencedContainer = "container:HZFFormattedNumberFiled.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8E507725204E394100438EE8"
-               BuildableName = "FormattedNumberFiledTests.xctest"
-               BlueprintName = "FormattedNumberFiledTests"
-               ReferencedContainer = "container:FormattedNumberFiled.xcodeproj">
+               BlueprintIdentifier = "8E507754204E3CEA00438EE8"
+               BuildableName = "HZFFormattedNumberFiledTests.xctest"
+               BlueprintName = "HZFFormattedNumberFiledTests"
+               ReferencedContainer = "container:HZFFormattedNumberFiled.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8E50771C204E394100438EE8"
-            BuildableName = "FormattedNumberFiled.framework"
-            BlueprintName = "FormattedNumberFiled"
-            ReferencedContainer = "container:FormattedNumberFiled.xcodeproj">
+            BlueprintIdentifier = "8E50774B204E3CEA00438EE8"
+            BuildableName = "HZFFormattedNumberFiled.framework"
+            BlueprintName = "HZFFormattedNumberFiled"
+            ReferencedContainer = "container:HZFFormattedNumberFiled.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,10 +66,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8E50771C204E394100438EE8"
-            BuildableName = "FormattedNumberFiled.framework"
-            BlueprintName = "FormattedNumberFiled"
-            ReferencedContainer = "container:FormattedNumberFiled.xcodeproj">
+            BlueprintIdentifier = "8E50774B204E3CEA00438EE8"
+            BuildableName = "HZFFormattedNumberFiled.framework"
+            BlueprintName = "HZFFormattedNumberFiled"
+            ReferencedContainer = "container:HZFFormattedNumberFiled.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8E50771C204E394100438EE8"
-            BuildableName = "FormattedNumberFiled.framework"
-            BlueprintName = "FormattedNumberFiled"
-            ReferencedContainer = "container:FormattedNumberFiled.xcodeproj">
+            BlueprintIdentifier = "8E50774B204E3CEA00438EE8"
+            BuildableName = "HZFFormattedNumberFiled.framework"
+            BlueprintName = "HZFFormattedNumberFiled"
+            ReferencedContainer = "container:HZFFormattedNumberFiled.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -7,101 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E507727204E394100438EE8 /* FormattedNumberFiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E50771D204E394100438EE8 /* FormattedNumberFiled.framework */; };
-		8E50772C204E394100438EE8 /* FormattedNumberFiledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50772B204E394100438EE8 /* FormattedNumberFiledTests.swift */; };
-		8E50772E204E394100438EE8 /* FormattedNumberFiled.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E507720204E394100438EE8 /* FormattedNumberFiled.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E50773C204E39E700438EE8 /* NSString+NumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E507738204E39E700438EE8 /* NSString+NumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E50773D204E39E700438EE8 /* FormattedNumberFiled.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E507739204E39E700438EE8 /* FormattedNumberFiled.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E50773E204E39E700438EE8 /* NSString+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E50773A204E39E700438EE8 /* NSString+NumberFormat.m */; };
-		8E50773F204E39E700438EE8 /* FormattedNumberFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E50773B204E39E700438EE8 /* FormattedNumberFiled.m */; };
+		8E507756204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E50774C204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework */; };
+		8E50775B204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50775A204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.swift */; };
+		8E50775D204E3CEA00438EE8 /* HZFFormattedNumberFiled.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E50774F204E3CEA00438EE8 /* HZFFormattedNumberFiled.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E50776B204E3D3600438EE8 /* NSString+NumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E507767204E3D3600438EE8 /* NSString+NumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E50776C204E3D3600438EE8 /* FormattedNumberFiled.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E507768204E3D3600438EE8 /* FormattedNumberFiled.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E50776D204E3D3600438EE8 /* NSString+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E507769204E3D3600438EE8 /* NSString+NumberFormat.m */; };
+		8E50776E204E3D3600438EE8 /* FormattedNumberFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E50776A204E3D3600438EE8 /* FormattedNumberFiled.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E507728204E394100438EE8 /* PBXContainerItemProxy */ = {
+		8E507757204E3CEA00438EE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E507714204E394100438EE8 /* Project object */;
+			containerPortal = 8E507743204E3CE900438EE8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E50771C204E394100438EE8;
-			remoteInfo = FormattedNumberFiled;
+			remoteGlobalIDString = 8E50774B204E3CEA00438EE8;
+			remoteInfo = HZFFormattedNumberFiled;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E50771D204E394100438EE8 /* FormattedNumberFiled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FormattedNumberFiled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E507720204E394100438EE8 /* FormattedNumberFiled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormattedNumberFiled.h; sourceTree = "<group>"; };
-		8E507721204E394100438EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E507726204E394100438EE8 /* FormattedNumberFiledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormattedNumberFiledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E50772B204E394100438EE8 /* FormattedNumberFiledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedNumberFiledTests.swift; sourceTree = "<group>"; };
-		8E50772D204E394100438EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E507738204E39E700438EE8 /* NSString+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFormat.h"; sourceTree = "<group>"; };
-		8E507739204E39E700438EE8 /* FormattedNumberFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattedNumberFiled.h; sourceTree = "<group>"; };
-		8E50773A204E39E700438EE8 /* NSString+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFormat.m"; sourceTree = "<group>"; };
-		8E50773B204E39E700438EE8 /* FormattedNumberFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattedNumberFiled.m; sourceTree = "<group>"; };
+		8E50774C204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZFFormattedNumberFiled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E50774F204E3CEA00438EE8 /* HZFFormattedNumberFiled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZFFormattedNumberFiled.h; sourceTree = "<group>"; };
+		8E507750204E3CEA00438EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E507755204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZFFormattedNumberFiledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E50775A204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZFFormattedNumberFiledTests.swift; sourceTree = "<group>"; };
+		8E50775C204E3CEA00438EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E507767204E3D3600438EE8 /* NSString+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFormat.h"; sourceTree = "<group>"; };
+		8E507768204E3D3600438EE8 /* FormattedNumberFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattedNumberFiled.h; sourceTree = "<group>"; };
+		8E507769204E3D3600438EE8 /* NSString+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFormat.m"; sourceTree = "<group>"; };
+		8E50776A204E3D3600438EE8 /* FormattedNumberFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattedNumberFiled.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E507719204E394100438EE8 /* Frameworks */ = {
+		8E507748204E3CEA00438EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E507723204E394100438EE8 /* Frameworks */ = {
+		8E507752204E3CEA00438EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E507727204E394100438EE8 /* FormattedNumberFiled.framework in Frameworks */,
+				8E507756204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E507713204E394100438EE8 = {
+		8E507742204E3CE900438EE8 = {
 			isa = PBXGroup;
 			children = (
-				8E50771F204E394100438EE8 /* FormattedNumberFiled */,
-				8E50772A204E394100438EE8 /* FormattedNumberFiledTests */,
-				8E50771E204E394100438EE8 /* Products */,
+				8E50774E204E3CEA00438EE8 /* HZFFormattedNumberFiled */,
+				8E507759204E3CEA00438EE8 /* HZFFormattedNumberFiledTests */,
+				8E50774D204E3CEA00438EE8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E50771E204E394100438EE8 /* Products */ = {
+		8E50774D204E3CEA00438EE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E50771D204E394100438EE8 /* FormattedNumberFiled.framework */,
-				8E507726204E394100438EE8 /* FormattedNumberFiledTests.xctest */,
+				8E50774C204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework */,
+				8E507755204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E50771F204E394100438EE8 /* FormattedNumberFiled */ = {
+		8E50774E204E3CEA00438EE8 /* HZFFormattedNumberFiled */ = {
 			isa = PBXGroup;
 			children = (
-				8E507737204E39E700438EE8 /* FormattedNumberFiled */,
-				8E507720204E394100438EE8 /* FormattedNumberFiled.h */,
-				8E507721204E394100438EE8 /* Info.plist */,
+				8E507766204E3D3600438EE8 /* FormattedNumberFiled */,
+				8E50774F204E3CEA00438EE8 /* HZFFormattedNumberFiled.h */,
+				8E507750204E3CEA00438EE8 /* Info.plist */,
 			);
-			path = FormattedNumberFiled;
+			path = HZFFormattedNumberFiled;
 			sourceTree = "<group>";
 		};
-		8E50772A204E394100438EE8 /* FormattedNumberFiledTests */ = {
+		8E507759204E3CEA00438EE8 /* HZFFormattedNumberFiledTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E50772B204E394100438EE8 /* FormattedNumberFiledTests.swift */,
-				8E50772D204E394100438EE8 /* Info.plist */,
+				8E50775A204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.swift */,
+				8E50775C204E3CEA00438EE8 /* Info.plist */,
 			);
-			path = FormattedNumberFiledTests;
+			path = HZFFormattedNumberFiledTests;
 			sourceTree = "<group>";
 		};
-		8E507737204E39E700438EE8 /* FormattedNumberFiled */ = {
+		8E507766204E3D3600438EE8 /* FormattedNumberFiled */ = {
 			isa = PBXGroup;
 			children = (
-				8E507738204E39E700438EE8 /* NSString+NumberFormat.h */,
-				8E50773A204E39E700438EE8 /* NSString+NumberFormat.m */,
-				8E507739204E39E700438EE8 /* FormattedNumberFiled.h */,
-				8E50773B204E39E700438EE8 /* FormattedNumberFiled.m */,
+				8E507767204E3D3600438EE8 /* NSString+NumberFormat.h */,
+				8E507768204E3D3600438EE8 /* FormattedNumberFiled.h */,
+				8E507769204E3D3600438EE8 /* NSString+NumberFormat.m */,
+				8E50776A204E3D3600438EE8 /* FormattedNumberFiled.m */,
 			);
 			path = FormattedNumberFiled;
 			sourceTree = "<group>";
@@ -109,102 +109,102 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8E50771A204E394100438EE8 /* Headers */ = {
+		8E507749204E3CEA00438EE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E50773D204E39E700438EE8 /* FormattedNumberFiled.h in Headers */,
-				8E50773C204E39E700438EE8 /* NSString+NumberFormat.h in Headers */,
-				8E50772E204E394100438EE8 /* FormattedNumberFiled.h in Headers */,
+				8E50776C204E3D3600438EE8 /* FormattedNumberFiled.h in Headers */,
+				8E50776B204E3D3600438EE8 /* NSString+NumberFormat.h in Headers */,
+				8E50775D204E3CEA00438EE8 /* HZFFormattedNumberFiled.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E50771C204E394100438EE8 /* FormattedNumberFiled */ = {
+		8E50774B204E3CEA00438EE8 /* HZFFormattedNumberFiled */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E507731204E394100438EE8 /* Build configuration list for PBXNativeTarget "FormattedNumberFiled" */;
+			buildConfigurationList = 8E507760204E3CEA00438EE8 /* Build configuration list for PBXNativeTarget "HZFFormattedNumberFiled" */;
 			buildPhases = (
-				8E507718204E394100438EE8 /* Sources */,
-				8E507719204E394100438EE8 /* Frameworks */,
-				8E50771A204E394100438EE8 /* Headers */,
-				8E50771B204E394100438EE8 /* Resources */,
+				8E507747204E3CEA00438EE8 /* Sources */,
+				8E507748204E3CEA00438EE8 /* Frameworks */,
+				8E507749204E3CEA00438EE8 /* Headers */,
+				8E50774A204E3CEA00438EE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FormattedNumberFiled;
-			productName = FormattedNumberFiled;
-			productReference = 8E50771D204E394100438EE8 /* FormattedNumberFiled.framework */;
+			name = HZFFormattedNumberFiled;
+			productName = HZFFormattedNumberFiled;
+			productReference = 8E50774C204E3CEA00438EE8 /* HZFFormattedNumberFiled.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8E507725204E394100438EE8 /* FormattedNumberFiledTests */ = {
+		8E507754204E3CEA00438EE8 /* HZFFormattedNumberFiledTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E507734204E394100438EE8 /* Build configuration list for PBXNativeTarget "FormattedNumberFiledTests" */;
+			buildConfigurationList = 8E507763204E3CEA00438EE8 /* Build configuration list for PBXNativeTarget "HZFFormattedNumberFiledTests" */;
 			buildPhases = (
-				8E507722204E394100438EE8 /* Sources */,
-				8E507723204E394100438EE8 /* Frameworks */,
-				8E507724204E394100438EE8 /* Resources */,
+				8E507751204E3CEA00438EE8 /* Sources */,
+				8E507752204E3CEA00438EE8 /* Frameworks */,
+				8E507753204E3CEA00438EE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E507729204E394100438EE8 /* PBXTargetDependency */,
+				8E507758204E3CEA00438EE8 /* PBXTargetDependency */,
 			);
-			name = FormattedNumberFiledTests;
-			productName = FormattedNumberFiledTests;
-			productReference = 8E507726204E394100438EE8 /* FormattedNumberFiledTests.xctest */;
+			name = HZFFormattedNumberFiledTests;
+			productName = HZFFormattedNumberFiledTests;
+			productReference = 8E507755204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E507714204E394100438EE8 /* Project object */ = {
+		8E507743204E3CE900438EE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "会分期";
 				TargetAttributes = {
-					8E50771C204E394100438EE8 = {
+					8E50774B204E3CEA00438EE8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					8E507725204E394100438EE8 = {
+					8E507754204E3CEA00438EE8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 8E507717204E394100438EE8 /* Build configuration list for PBXProject "FormattedNumberFiled" */;
+			buildConfigurationList = 8E507746204E3CE900438EE8 /* Build configuration list for PBXProject "HZFFormattedNumberFiled" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8E507713204E394100438EE8;
-			productRefGroup = 8E50771E204E394100438EE8 /* Products */;
+			mainGroup = 8E507742204E3CE900438EE8;
+			productRefGroup = 8E50774D204E3CEA00438EE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E50771C204E394100438EE8 /* FormattedNumberFiled */,
-				8E507725204E394100438EE8 /* FormattedNumberFiledTests */,
+				8E50774B204E3CEA00438EE8 /* HZFFormattedNumberFiled */,
+				8E507754204E3CEA00438EE8 /* HZFFormattedNumberFiledTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E50771B204E394100438EE8 /* Resources */ = {
+		8E50774A204E3CEA00438EE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E507724204E394100438EE8 /* Resources */ = {
+		8E507753204E3CEA00438EE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,35 +214,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E507718204E394100438EE8 /* Sources */ = {
+		8E507747204E3CEA00438EE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E50773F204E39E700438EE8 /* FormattedNumberFiled.m in Sources */,
-				8E50773E204E39E700438EE8 /* NSString+NumberFormat.m in Sources */,
+				8E50776E204E3D3600438EE8 /* FormattedNumberFiled.m in Sources */,
+				8E50776D204E3D3600438EE8 /* NSString+NumberFormat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E507722204E394100438EE8 /* Sources */ = {
+		8E507751204E3CEA00438EE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E50772C204E394100438EE8 /* FormattedNumberFiledTests.swift in Sources */,
+				8E50775B204E3CEA00438EE8 /* HZFFormattedNumberFiledTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E507729204E394100438EE8 /* PBXTargetDependency */ = {
+		8E507758204E3CEA00438EE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E50771C204E394100438EE8 /* FormattedNumberFiled */;
-			targetProxy = 8E507728204E394100438EE8 /* PBXContainerItemProxy */;
+			target = 8E50774B204E3CEA00438EE8 /* HZFFormattedNumberFiled */;
+			targetProxy = 8E507757204E3CEA00438EE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8E50772F204E394100438EE8 /* Debug */ = {
+		8E50775E204E3CEA00438EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		8E507730204E394100438EE8 /* Release */ = {
+		8E50775F204E3CEA00438EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Release;
 		};
-		8E507732204E394100438EE8 /* Debug */ = {
+		8E507761204E3CEA00438EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -364,11 +364,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FormattedNumberFiled/Info.plist;
+				INFOPLIST_FILE = HZFFormattedNumberFiled/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.FormattedNumberFiled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.HZFFormattedNumberFiled;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -376,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		8E507733204E394100438EE8 /* Release */ = {
+		8E507762204E3CEA00438EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -385,11 +384,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FormattedNumberFiled/Info.plist;
+				INFOPLIST_FILE = HZFFormattedNumberFiled/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.FormattedNumberFiled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.HZFFormattedNumberFiled;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -397,26 +395,26 @@
 			};
 			name = Release;
 		};
-		8E507735204E394100438EE8 /* Debug */ = {
+		8E507764204E3CEA00438EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FormattedNumberFiledTests/Info.plist;
+				INFOPLIST_FILE = HZFFormattedNumberFiledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.FormattedNumberFiledTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.HZFFormattedNumberFiledTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8E507736204E394100438EE8 /* Release */ = {
+		8E507765204E3CEA00438EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FormattedNumberFiledTests/Info.plist;
+				INFOPLIST_FILE = HZFFormattedNumberFiledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.FormattedNumberFiledTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huifenqi.formattedNumberFiled.HZFFormattedNumberFiledTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,34 +424,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E507717204E394100438EE8 /* Build configuration list for PBXProject "FormattedNumberFiled" */ = {
+		8E507746204E3CE900438EE8 /* Build configuration list for PBXProject "HZFFormattedNumberFiled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E50772F204E394100438EE8 /* Debug */,
-				8E507730204E394100438EE8 /* Release */,
+				8E50775E204E3CEA00438EE8 /* Debug */,
+				8E50775F204E3CEA00438EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E507731204E394100438EE8 /* Build configuration list for PBXNativeTarget "FormattedNumberFiled" */ = {
+		8E507760204E3CEA00438EE8 /* Build configuration list for PBXNativeTarget "HZFFormattedNumberFiled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E507732204E394100438EE8 /* Debug */,
-				8E507733204E394100438EE8 /* Release */,
+				8E507761204E3CEA00438EE8 /* Debug */,
+				8E507762204E3CEA00438EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E507734204E394100438EE8 /* Build configuration list for PBXNativeTarget "FormattedNumberFiledTests" */ = {
+		8E507763204E3CEA00438EE8 /* Build configuration list for PBXNativeTarget "HZFFormattedNumberFiledTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E507735204E394100438EE8 /* Debug */,
-				8E507736204E394100438EE8 /* Release */,
+				8E507764204E3CEA00438EE8 /* Debug */,
+				8E507765204E3CEA00438EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E507714204E394100438EE8 /* Project object */;
+	rootObject = 8E507743204E3CE900438EE8 /* Project object */;
 }

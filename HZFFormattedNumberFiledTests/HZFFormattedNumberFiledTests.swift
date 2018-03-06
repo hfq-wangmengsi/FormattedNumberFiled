@@ -1,15 +1,15 @@
 //
-//  FormattedNumberFiledTests.swift
-//  FormattedNumberFiledTests
+//  HZFFormattedNumberFiledTests.swift
+//  HZFFormattedNumberFiledTests
 //
 //  Created by 王梦思 on 2018/3/6.
 //  Copyright © 2018年 会分期. All rights reserved.
 //
 
 import XCTest
-@testable import FormattedNumberFiled
+@testable import HZFFormattedNumberFiled
 
-class FormattedNumberFiledTests: XCTestCase {
+class HZFFormattedNumberFiledTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
