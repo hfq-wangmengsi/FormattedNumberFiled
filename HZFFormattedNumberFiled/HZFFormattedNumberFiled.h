@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <HZFFormattedNumberFiled/NSString+NumberFormat.h>
+#import <HZFFormattedNumberFiled/FormattedNumberFiled.h>
 
 //! Project version number for HZFFormattedNumberFiled.
 FOUNDATION_EXPORT double HZFFormattedNumberFiledVersionNumber;
